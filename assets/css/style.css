@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+    /* max-width: 100%; */
+    color: #D3D3D3;
+}
+
+body {
+    background-color: #0a0a0aef;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+main p, li {
+    font-size: 2rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.cabecalho {
+    background-color: #141622;
+    /* width: 100%; */
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1; */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    font-size: 1.6rem;
+    /* background-color: white; */
+    margin: 1em 1em 0 0;
+    padding: 0.3em;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil img {
+    border-radius: 50%;
+    /* width: 10%; */
+    width: 10em;
+    height: 10em;
+}
+
+.perfil h1, p {
+    padding: 0.5em;
+}
+
+.principal {
+    /* background-color: #12141f; */
+    /* background-color: #0A0A0A; */
+    /* background-color: #0a0a0aef; */
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: 1; */
+    flex-wrap: wrap;
+    gap: 6em;
+    padding: 2em;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about img {
+    width: 30em;
+    height: 30em;
+}
+
+.bio {
+    width: 40rem;
+    text-align: justify;
+    border: 3px solid #222222;
+}
+
+.curiosidades {
+    width: 28rem;
+    list-style-position: inside;
+}
+
+.habilidades h2 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1em;
+    gap: 8em;
+    /* background-color: red; */
+}
+
+.cards div {
+    background-color: #222222;
+    /* width: 20em; */
+    padding: 2em;
+}
+
+.habilidades img {
+    width: 10em;
+    height: 10em;
+}
+
+.projetos {
+    text-align: center;
+}
+
+.cartoesDeProjetos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 1em;
+}
+
+.cartoesDeProjetos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.cartoesDeProjetos a {
+    /* width: max-content; */
+}
+
+.cartoesDeProjetos button {
+    padding: 0.5em;
+    border-radius: 2em;
+    border: solid 3px #272727;
+    background-color: #222222;
+    color: white;
+}
+
+
+.cartoesDeProjetos button:hover {
+    background-color: #141622b6;
+    cursor: pointer;
+}
+
+.projetos div img {
+    height: 29em;
+    max-width: 40em;
+}
+
+#rodape {
+    background-color: #141622;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3em;
+    padding: 0.2em;
+    font-size: 1.5em;
+    max-width: 100%;
+}
+
+.icons {
+    display: flex;
+    gap: 2em;
+}
