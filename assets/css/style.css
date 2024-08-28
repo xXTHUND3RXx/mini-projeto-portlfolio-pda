@@ -8,7 +8,6 @@
 html {
     font-size: 62.5%;
     font-family: "Roboto", sans-serif;
-    /* max-width: 100%; */
     color: #D3D3D3;
 }
 
@@ -31,11 +30,6 @@ a {
 
 .cabecalho {
     background-color: #141622;
-    /* width: 100%; */
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1; */
 }
 
 nav {
@@ -48,7 +42,6 @@ nav {
     gap: 2em;
     list-style: none;
     font-size: 1.6rem;
-    /* background-color: white; */
     margin: 1em 1em 0 0;
     padding: 0.3em;
 }
@@ -61,7 +54,6 @@ nav {
 
 .perfil img {
     border-radius: 50%;
-    /* width: 10%; */
     width: 10em;
     height: 10em;
 }
@@ -70,17 +62,10 @@ nav {
     padding: 0.5em;
 }
 
-.principal {
-    /* background-color: #12141f; */
-    /* background-color: #0A0A0A; */
-    /* background-color: #0a0a0aef; */
-}
-
 .about {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex: 1; */
     flex-wrap: wrap;
     gap: 6em;
     padding: 2em;
@@ -116,12 +101,10 @@ nav {
     flex-wrap: wrap;
     margin: 1em;
     gap: 8em;
-    /* background-color: red; */
 }
 
 .cards div {
     background-color: #222222;
-    /* width: 20em; */
     padding: 2em;
 }
 
@@ -147,10 +130,6 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 1.5em;
-}
-
-.cartoesDeProjetos a {
-    /* width: max-content; */
 }
 
 .cartoesDeProjetos button {
@@ -180,7 +159,6 @@ nav {
     gap: 3em;
     padding: 0.2em;
     font-size: 1.5em;
-    max-width: 100%;
 }
 
 .icons {
